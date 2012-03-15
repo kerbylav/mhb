@@ -1,6 +1,6 @@
 <?php
 /*
- * 
+ *
  * Project Name : Must Have Blogs
  * Copyright (C) 2011 Alexei Lukin. All rights reserved.
  * License: GNU GPL v2, http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
@@ -21,6 +21,8 @@ return array(
 'mhb_blog_title'=>'Название блога',
 'mhb_auto_join_title'=>'Автоприсоединение',
 'mhb_cant_leave_title'=>'Нельзя покинуть',
+
+'mhb_cant_leave_blog'=>'Администрация запретила покидать этот блог',
 
 'mhb_submit'=>'Сохранить',
 
