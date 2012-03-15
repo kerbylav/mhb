@@ -55,7 +55,7 @@ class PluginMHB_ActionMain extends ActionPlugin {
 		}
 
 		$this->Viewer_AppendStyle(Plugin::GetTemplateWebPath('PluginMHB').'css/style.css');
-		$this->aBlocks['right'][] = Plugin::GetTemplatePath('mhb').'block.info.tpl';
+		$this->aBlocks['right'][] = Plugin::GetTemplateWebPath('mhb').'block.info.tpl';
 		$this->SetDefaultEvent('view');
 	}
 
@@ -139,10 +139,8 @@ class PluginMHB_ActionMain extends ActionPlugin {
 		$this->Viewer_Assign('sMenuSubItemSelect', $this->sMenuSubItemSelect);
 		$this->Viewer_Assign('bIsAdmin', $this->bIsAdmin);
 		$this->Viewer_Assign('oUserCurrent', $this->oUserCurrent);
-		$this->Viewer_Assign('sTemplatePath', Plugin::GetTemplatePath('PluginMHB'));
-		foreach ($this->aBlocks as $sGroup=>$aGroupBlocks) {
-			$this->Viewer_AddBlocks($sGroup, $aGroupBlocks);
-		}
+		$this->Viewer_Assign('sTemplatePath', Plugin::GetTemplateWebPath('PluginMHB'));
+		$this->Viewer_AddBlock('right', 'block.info.tpl', array('plugin' => 'mhb'), 100);
 	}
 }
 ?>
