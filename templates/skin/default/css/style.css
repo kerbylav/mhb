@@ -1,7 +1,4 @@
-.mhb_checkbox
-{
-	text-align:center;
-}
+.mhb_checkbox { text-align:center; }
 
 .mhb table { width: 100%; border-collapse: collapse; margin-bottom: 20px; }
 .mhb table thead td { background: #f0f1f1; font-weight: bold; padding: 5px 0; }
