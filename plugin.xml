@@ -7,7 +7,7 @@
 		<lang name="default">Alexei Lukin aka Kerby</lang>
 	</author>
 	<homepage>http://imthinker.ru/plugin-mhb</homepage>
-	<version>1.0.0</version>
+	<version>1.0.1</version>
 	<requires>
 		<livestreet>0.4.2</livestreet>
 		<plugins>
