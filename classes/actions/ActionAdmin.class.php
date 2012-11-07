@@ -73,11 +73,9 @@ class PluginMHB_ActionAdmin extends PluginMHB_Inherit_ActionAdmin {
             }
             $aData[]=$data;
         }
+        $this->Viewer_AddBlock('right', 'block.info.tpl', array('plugin' => 'mhb'), 100);
         $this->Viewer_Assign("aData",$aData);
     }
 
-    public function EventShutdown() {
-        $this->Viewer_AddBlock('right', 'block.info.tpl', array('plugin' => 'mhb'), 100);
-    }
 }
 ?>
