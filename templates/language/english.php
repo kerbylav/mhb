@@ -16,7 +16,7 @@ return array(
 'mhb_info_email'=>'kerbylav@gmail.com',
 'mhb_info_url'=>'http://imthinker.ru/plugin-mhb',
 
-'mhb_donate'=>'This plugin is free, but author will thankfully accept any donation made to WebMoney purse  Z334942299641 or R328441042941, or Money.Yandex 41001830047811. And remember, even couple of bucks could make an evening with beer :)',
+'mhb_donate'=>'This plugin is free, but author will thankfully accept any donation made to WebMoney purse  Z334942299641 or R328441042941, or Money.Yandex 41001830047811, yet better , а лучше - <a href="http://livestreetcms.com/profile/kerby/donate/" target="_blank">here</a>. And remember, even couple of bucks could make an evening with beer :)',
 
 'mhb_blog_title'=>'Blog title',
 'mhb_auto_join_title'=>'Autojoin',

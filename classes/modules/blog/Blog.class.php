@@ -6,7 +6,7 @@ class PluginMHB_ModuleBlog extends PluginMHB_Inherit_ModuleBlog {
             if (!$oMhb->getCantLeave()) {
                 return parent::DeleteRelationBlogUser($oBlogUser);
             } else {
-                $this->Message_AddErrorSingle($this->Lang_Get('mhb_cant_leave_blog'),$this->Lang_Get('attention'));
+                $this->Message_AddErrorSingle($this->Lang_Get('plugin.mhb.mhb_cant_leave_blog'),$this->Lang_Get('attention'));
                 return true;
             }
         }

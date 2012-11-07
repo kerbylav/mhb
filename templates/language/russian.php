@@ -2,7 +2,7 @@
 /*
  *
  * Project Name : Must Have Blogs
- * Copyright (C) 2011 Alexei Lukin. All rights reserved.
+ * Copyright (C) 2011-2012 Alexei Lukin. All rights reserved.
  * License: GNU GPL v2, http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
  *
  */
@@ -16,7 +16,7 @@ return array(
 'mhb_info_email'=>'kerbylav@gmail.com',
 'mhb_info_url'=>'http://imthinker.ru/plugin-mhb',
 
-'mhb_donate'=>'Этот плагин бесплатный, но автор с благодарностью примет материальное вознаграждение на кошельки WebMoney Z334942299641 и R328441042941, а так же Яндекс.Деньги счет 41001830047811. Помните, даже пара баксов могут скрасить вечер пивом :)',
+'mhb_donate'=>'Этот плагин бесплатный, но автор с благодарностью примет материальное вознаграждение на кошельки WebMoney Z334942299641 и R328441042941, а так же Яндекс.Деньги счет 41001830047811, а лучше - <a href="http://livestreetcms.ru/profile/kerby/donate/" target="_blank">сюда</a>. Помните, даже пара баксов могут скрасить вечер пивом :)',
 
 'mhb_blog_title'=>'Название блога',
 'mhb_auto_join_title'=>'Автоприсоединение',
