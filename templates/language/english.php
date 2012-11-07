@@ -9,6 +9,7 @@
 
 
 return array(
+'admin_admin_menu'=>'Autojoin blogs',
 'mhb_info_header'=>'Project information',
 'mhb_info_pluginname'=>'Must Have Blogs',
 'mhb_info_version'=>MHB_VERSION,

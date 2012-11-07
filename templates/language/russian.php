@@ -9,6 +9,8 @@
 
 
 return array(
+'admin_admin_menu'=>'Блоги для автоматического вступления',
+
 'mhb_info_header'=>'Информация о проекте',
 'mhb_info_pluginname'=>'Must Have Blogs',
 'mhb_info_version'=>MHB_VERSION,
