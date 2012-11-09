@@ -1,6 +1,8 @@
 {include file='header.tpl'}
 <div class="mhb form">
     <form action="" method="post" enctype="multipart/form-data">
+	<input type="hidden" name="security_ls_key" value="{$LIVESTREET_SECURITY_KEY}" />
+
 	<table class="table table-plugins">
 		<thead>
             <tr>
