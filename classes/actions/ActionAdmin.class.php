@@ -9,6 +9,7 @@
 
 
 class PluginMHB_ActionAdmin extends PluginMHB_Inherit_ActionAdmin {
+    
     protected function RegisterEvent()
     {
         $this->AddEvent('mhb', 'EventMHB');
@@ -20,6 +21,7 @@ class PluginMHB_ActionAdmin extends PluginMHB_Inherit_ActionAdmin {
         $aBlogs=$this->Blog_GetBlogs();
 
         if (isPost('submit_mhb')) {
+            $this->Security_ValidateSendForm();
             $this->PluginMHB_ModuleMain_DeleteAllMhb();
 
             foreach ($_REQUEST as $key=>$var) {
